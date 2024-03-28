@@ -18,4 +18,5 @@ The **Pomodoro® Technique** is a time management method developed by _Francesco
 6. Repeat the process until the task is completed.
 
 FOLLOW ME!
-💙 Instagram: @izzyluuuuh
+
+💙 Instagram: [@izzyluuuuh](https://www.instagram.com/izzyluuuuh/)
