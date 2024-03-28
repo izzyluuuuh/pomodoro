@@ -16,3 +16,6 @@ The **Pomodoro® Technique** is a time management method developed by _Francesco
 4. When the timer goes off, mark the Pomodoro as completed and take a short break of 5 minutes.
 5. After completing four Pomodoros, take a longer break of 15 to 30 minutes.
 6. Repeat the process until the task is completed.
+
+FOLLOW ME!
+💙 Instagram: @izzyluuuuh
