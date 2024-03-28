@@ -1,0 +1,148 @@
+html {
+  font-family: 'Fira Sans', sans-serif; /* Update the font family for improved readability */
+  font-size: 1.25rem;
+  letter-spacing: .05rem;
+  min-height: 100vh;
+  color: #d8e9ef; /* Adjust text color for better contrast */
+  background: linear-gradient(to right, #EDAE48, #990000);
+  background-size: cover;
+}
+
+h1 {
+  padding-top: 5%;
+  margin: 0 auto 10px auto;
+  color: #d8e9ef; /* Adjust heading color */
+}
+
+p {
+  margin: 0;
+}
+
+.app-message {
+  height: 1.25rem;
+  margin: .625rem auto 1.25rem auto;
+}
+
+.app-container {
+  width: 31.25rem;
+  height: 35.625rem;
+  margin: 2.5rem auto;
+  text-align: center;
+  border-radius: .625rem; 
+  padding: 1.875rem; /* Adjust padding for improved spacing */
+  background-color: #960200; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
+}
+
+.app-circle {
+  position: relative;
+  margin: 0 auto;
+  width: 12.5rem;
+  height: 12.5rem;
+  border: .625rem solid #FBB13C; /* Update the border color for the circle */
+  border-radius: 50%; /* Make the circle shape more prominent */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(161, 0, 0); /* Add a background color to the circle */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
+  animation: pulse 1s infinite; /* Add a pulsating animation for visual interest */
+}
+
+.app-counter-box {
+  font-size: 3em; /* Increase font size for better visibility */
+  color: #d8e9ef; /* Adjust text color for better contrast */
+}
+
+.button-container {
+  display: flex;
+  width: 100%;
+  padding-top: 15%;
+  justify-content: center;
+}
+
+button {
+  bottom: .625rem; /* Adjust the vertical position of the buttons */
+  left: 50%; /* Position the buttons at the horizontal center of the container */
+  font-size: 90%; /* Adjust font size for better proportion */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .0625rem;
+  border: none;
+  background-color: #FBB13C; /* Update button background color */
+  color: black; /* Update button text color */
+  padding: .625rem 1.25rem; /* Add padding for better button size */
+  border-radius: 20%;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add a smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #bf5239; /* Adjust hover color for better visual feedback */
+}
+
+.audio-container audio {
+  display: none; 
+}
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.task-manager {
+  width: 25%;
+  margin-top: 1.25rem;
+  border: 10px solid #990000;
+  padding: .625rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.task-manager input {
+  width: calc(100% - 20px);
+  height: 2.5rem;
+  padding: .625rem;
+  margin-right: .625rem;
+  font-size: large;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: .3125rem;
+}
+
+.task-manager button {
+  padding: 5px .625rem;
+  background-color: #990000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: .3125rem;
+  margin-top: .625rem;
+}
+
+.task-list {
+  list-style-type: none;
+  color: black;
+  font-weight: bolder;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-list li {
+  margin-bottom: .3125rem;
+  background-color: #f4f4f4;
+  padding: .625rem;
+  border-radius: .3125rem;
+  width: 17.5rem;
+  text-align: center;
+}
