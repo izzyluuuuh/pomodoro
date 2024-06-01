@@ -1,8 +1,13 @@
 # Pomodoro App
-
+<sup>
+  
 **Prerequisites:**
 
 - HTML, CSS, & JavaScript fundamentals
+</sup>
+
+> [!NOTE]  
+> This isn't the final version.
 
 ### [WHAT IS THE POMODORO® TECHNIQUE?](https://www.pomodorotechnique.com/)
 
